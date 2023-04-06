@@ -1,1 +1,1 @@
-# torus
+# OpenGL Torus
