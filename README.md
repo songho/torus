@@ -9,4 +9,4 @@ Visit [OpenGL Torus](https://www.songho.ca/opengl/gl_torus.html) page how to con
 ``make -f Makefile.linux``\
 ``make -f Makefile.mac``
 
-For Windows, use ![Code::Blocks](https://www.codeblocks.org/) or VisualStudio to compile the project.
+For Windows, use [Code::Blocks](https://www.codeblocks.org/) or VisualStudio to compile the project.
