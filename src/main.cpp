@@ -501,7 +501,7 @@ void displayCB()
     //torus1.drawLines(lineColor);
     glPopMatrix();
 
-    // draw centre smooth sphere with line
+    // draw centre smooth torus with line
     glMaterialfv(GL_FRONT, GL_DIFFUSE, diffuse); // reset diffuse
     glPushMatrix();
     glRotatef(cameraAngleX, 1, 0, 0);

@@ -4,14 +4,14 @@
 	<Project>
 		<Option title="torus" />
 		<Option pch_mode="2" />
-		<Option compiler="gnu_gcc_compiler_x64" />
+		<Option compiler="gcc-mingw64" />
 		<Build>
 			<Target title="Release">
 				<Option output="../bin/torus" prefix_auto="1" extension_auto="1" />
 				<Option working_dir="../bin" />
 				<Option object_output="objs/" />
 				<Option type="1" />
-				<Option compiler="gnu_gcc_compiler_x64" />
+				<Option compiler="gcc-mingw64" />
 				<Option use_console_runner="0" />
 				<Compiler>
 					<Add option="-O2" />
@@ -30,6 +30,7 @@
 		<Linker>
 			<Add option="-static-libstdc++" />
 			<Add option="-static-libgcc" />
+			<Add option="-static" />
 			<Add option="-m64" />
 			<Add library="freeglut_static" />
 			<Add library="opengl32" />
